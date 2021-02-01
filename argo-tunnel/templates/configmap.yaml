@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ include "argo-tunnel.fullname" . }}
+  labels:
+    {{- include "argo-tunnel.labels" . | nindent 4 }}
+data:
+  config.yml: |
+    tunnel: {{ .Values.tunnel.name }}
+    credentials-file: /credentials/tunnel
+    url: {{ .Values.tunnel.target }}
+    logfile: /var/log/cloudflared.log
+    force: {{ .Values.tunnel.force }}
+    no-autoupdate: true
