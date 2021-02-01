@@ -1,2 +1,0 @@
-To complete setting up your argo tunnel, you need to run the following command:
-cloudflared tunnel route dns {{ .Values.tunnel.name }} your-desired-hostname.domain.lol
