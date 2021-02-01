@@ -3,7 +3,17 @@ entries:
   argo-tunnel:
   - apiVersion: v2
     appVersion: 2020.12.0-amd64
-    created: "2021-02-01T16:11:20.005287262Z"
+    created: "2021-02-01T16:18:38.233597265Z"
+    description: A Helm chart for Kubernetes
+    digest: ebcf188984fd475fa38022cc5f6fcc1406dff0dfa2bc480125c324b15581a9da
+    name: argo-tunnel
+    type: application
+    urls:
+    - argo-tunnel-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 2020.12.0-amd64
+    created: "2021-02-01T16:18:38.233323775Z"
     description: A Helm chart for Kubernetes
     digest: 2d568e6ccc2d87f98e53cb23d9baeed01d4e07eb7ceb140bdab8a30dc2511654
     name: argo-tunnel
@@ -13,7 +23,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 2020.12.0-amd64
-    created: "2021-02-01T16:11:20.004719482Z"
+    created: "2021-02-01T16:18:38.233047518Z"
     description: A Helm chart for Kubernetes
     digest: 45340d9ca5af69cb399d4faaabaed715783844fbe2964beda32c81c87307bb11
     name: argo-tunnel
@@ -21,4 +31,4 @@ entries:
     urls:
     - argo-tunnel-0.1.0.tgz
     version: 0.1.0
-generated: "2021-02-01T16:11:20.002641658Z"
+generated: "2021-02-01T16:18:38.232523822Z"
