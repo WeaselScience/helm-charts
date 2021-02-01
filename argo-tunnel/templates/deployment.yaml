@@ -17,6 +17,10 @@ spec:
       labels:
         {{- include "argo-tunnel.selectorLabels" . | nindent 8 }}
     spec:
+      {{ if .Values.useHostNetwork }}
+      hostNetwork: true
+      dnsPolicy: ClusterFirstWithHostNet
+      {{ end }}
       {{- with .Values.imagePullSecrets }}
       imagePullSecrets:
         {{- toYaml . | nindent 8 }}

@@ -8,6 +8,8 @@ tunnel:
   force: true
   credentials: ""
 
+useHostNetwork: false
+
 image:
   repository: cloudflare/cloudflared
   pullPolicy: IfNotPresent
