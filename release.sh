@@ -6,7 +6,7 @@ git commit -m "dump"
 git push
 git checkout gh-pages
 git checkout main -- index.yaml
-git checkout main -- argo-tunnel-*
+git checkout main -- 'argo-tunnel-*'
 git commit -m "dump"
 git push
 git checkout main
