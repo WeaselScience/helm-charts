@@ -9,7 +9,6 @@ data:
     tunnel: {{ .Values.tunnel.name }}
     credentials-file: /credentials/tunnel
     url: {{ .Values.tunnel.target }}
-    logfile: /var/log/cloudflared.log
     force: {{ .Values.tunnel.force }}
     no-autoupdate: true
     no-tls-verify: {{ .Values.tunnel.noTlsVerify }}
